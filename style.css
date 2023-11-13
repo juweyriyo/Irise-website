@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+}
+.header img {
+    width: 170px;
+    
+}
+
+.header ul{
+    list-style: none;
+    padding-top: 20px;
+    display: flex;
+
+}
+
+.header ul li{
+    padding: 0px 30px;
+    font-size: 22px;
+}
+
+.header ul li:hover .drawdobd ol{
+    display: block;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.left-hero , .right-hero{
+    width: 500px;
+    /* margin-top: 5em; */
+}
+
+.hero{
+    padding-top: 5em;
+    background-color: #EC4D01;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+    height: 100vh;
+}
+.left-hero{
+    font-family: sans-serif;
+    color: white;
+}
+.left-hero h1{
+    font-size: 50px;
+}
+
+.right-hero{
+    padding-left: 70px;
+}
+
+.right-hero p{
+    font-family: sans-serif;
+    padding-top: 20px;
+    line-height: 550px;
+}
+.drawdobd ol{
+    display: none;
+    margin-left: -20px;
+    list-style: none;
+}
+
+.drawdobd ol li{
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.parent{
+    margin-top: 40px;
+    height: 550px;
+ }
+ .picture{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 30px;
+    margin-left: 200px;
+ }
+ .image img {
+    filter: grayscale(100%);
+ }
+ 
+ .image img:hover {
+    filter: grayscale(0%);
+ }
+ .image h1{
+    padding-top: 30px;
+ }
+ .image p{
+    padding-top: 20px;
+ }
+ .image{
+    font-family: sans-serif;
+ }
+ .impact{
+    color: white;
+    background-color: blue;
+    height: 400px;
+ }
+ .impact h2{
+    font-size: 4em;
+    padding-top: 1em;
+    padding-left: 3em;
+ }
+ .num1 {
+    font-size: 1.3rem;
+    text-align: center;
+ }
+ .num1 i{
+    font-size: 4em;
+ }
+ .numbers-parent{
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-evenly;
+ }
+.ecosystem-parent {
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    background-color: #EfEFEF;
+}
+.left-ecosystam {
+    width: 450px;
+}
+.left-ecosystam h1{
+    font-size: 4em;
+    margin-top: 20px;
+}
+.left-ecosystam p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.rigth-ecosystem{
+    margin-right: 10em;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+.rigth-ecosystem img{
+    width: 200px;
+    height: 150px;
+}
